@@ -1,0 +1,58 @@
+{
+  "entities": {
+    "UserVerification": {
+      "title": "UserVerification",
+      "description": "Stores Google Sign-In user profile and 6-digit email activation code verification state.",
+      "type": "object",
+      "properties": {
+        "userId": {
+          "type": "string",
+          "description": "The authenticated Firebase user UID owning this verification record."
+        },
+        "email": {
+          "type": "string",
+          "description": "The user's Google account email address receiving the activation code."
+        },
+        "displayName": {
+          "type": "string",
+          "description": "The user's display name from Google Sign-In."
+        },
+        "otpCode": {
+          "type": "string",
+          "description": "The 6-digit numeric email activation code."
+        },
+        "isVerified": {
+          "type": "boolean",
+          "description": "Whether the user has verified their email activation code."
+        },
+        "createdAt": {
+          "type": "string",
+          "format": "date-time",
+          "description": "Server timestamp when the verification record was created (FieldValue.serverTimestamp())."
+        },
+        "updatedAt": {
+          "type": "string",
+          "format": "date-time",
+          "description": "Server timestamp when the verification record was last updated (FieldValue.serverTimestamp())."
+        }
+      },
+      "required": [
+        "userId",
+        "email",
+        "displayName",
+        "otpCode",
+        "isVerified",
+        "createdAt",
+        "updatedAt"
+      ]
+    }
+  },
+  "firestore": {
+    "/user_verifications/{userId}": {
+      "schema": {
+        "$ref": "#/entities/UserVerification"
+      },
+      "description": "Per-user email activation code and verification status document."
+    }
+  }
+}

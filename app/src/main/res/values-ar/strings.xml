@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Jissr VPN</string>
+    <string name="vpn_session_name">جسر VPN المشفر</string>
+    <string name="nav_bridge">الرئيسية</string>
+    <string name="nav_relays">الخوادم</string>
+    <string name="nav_shield">الدرع والتطبيقات</string>
+    <string name="nav_diagnostics">الرادار والفحص</string>
+    <string name="nav_studio">بناء APK</string>
+    <string name="status_connected">متصل · النفق مشفر بالكامل</string>
+    <string name="status_connecting">جاري تأسيس الجسر المشفر...</string>
+    <string name="status_disconnected">غير متصل · جاهز للاتصال</string>
+    <string name="btn_connect">تفعيل جسر الحماية</string>
+    <string name="btn_disconnect">إيقاف الاتصال المشفر</string>
+    <string name="probe_all_relays">فحص سرعة الخوادم</string>
+    <string name="run_network_audit">فحص IP والتشفير الحي</string>
+    <string name="copy_workflow_yaml">نسخ ملف بناء APK</string>
+    <string name="export_wireguard_conf">نسخ ملف WireGuard</string>
+</resources>

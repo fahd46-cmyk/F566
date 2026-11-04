@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Jissr VPN</string>
+    <string name="vpn_session_name">Jissr Encrypted Bridge</string>
+    <string name="nav_bridge">Bridge</string>
+    <string name="nav_relays">Relays</string>
+    <string name="nav_diagnostics">Telemetry</string>
+    <string name="nav_studio">APK &amp; Config</string>
+    <string name="status_connected">TUNNEL ACTIVE</string>
+    <string name="status_connecting">ESTABLISHING BRIDGE</string>
+    <string name="status_disconnected">STANDBY · UNPROTECTED</string>
+    <string name="btn_connect">ENGAGE JISSER BRIDGE</string>
+    <string name="btn_disconnect">DISCONNECT TUNNEL</string>
+    <string name="probe_all_relays">Probe All Latencies</string>
+    <string name="run_network_audit">Run Live IP &amp; TLS Trace</string>
+    <string name="copy_workflow_yaml">Copy Workflow YAML</string>
+    <string name="export_wireguard_conf">Copy WireGuard .conf</string>
+</resources>

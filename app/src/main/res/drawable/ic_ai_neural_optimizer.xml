@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="48"
+    android:viewportHeight="48">
+
+    <!-- Outer Neural Octagon Ring -->
+    <path
+        android:pathData="M24,4 A20,20 0 1,1 23.99,4 Z"
+        android:strokeWidth="2.2"
+        android:fillColor="#1A00E5A3">
+        <aapt:attr name="android:strokeColor">
+            <gradient
+                android:startX="4"
+                android:startY="4"
+                android:endX="44"
+                android:endY="44"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#FF00E5A3" />
+                <item android:offset="0.5" android:color="#FF38BDF8" />
+                <item android:offset="1.0" android:color="#FFF59E0B" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Central AI Sparkle Star -->
+    <path
+        android:pathData="M24,9 C25.2,17.2 30.8,22.8 39,24 C30.8,25.2 25.2,30.8 24,39 C22.8,30.8 17.2,25.2 9,24 C17.2,22.8 22.8,17.2 24,9 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="9"
+                android:startY="9"
+                android:endX="39"
+                android:endY="39"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#FF00E5A3" />
+                <item android:offset="1.0" android:color="#FF38BDF8" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Secondary Sparkle Node -->
+    <path
+        android:fillColor="#FFF59E0B"
+        android:pathData="M35,10 C35.5,12.5 37.5,14.5 40,15 C37.5,15.5 35.5,17.5 35,20 C34.5,17.5 32.5,15.5 30,15 C32.5,14.5 34.5,12.5 35,10 Z" />
+</vector>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="48"
+    android:viewportHeight="48">
+
+    <!-- Outer Radar Sweep Ring -->
+    <path
+        android:pathData="M24,5 A19,19 0 1,1 23.99,5 Z"
+        android:strokeWidth="2.2"
+        android:fillColor="#1638BDF8">
+        <aapt:attr name="android:strokeColor">
+            <gradient
+                android:startX="5"
+                android:startY="5"
+                android:endX="43"
+                android:endY="43"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#FF38BDF8" />
+                <item android:offset="1.0" android:color="#FF00E5A3" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Inner Radar Concentric Ring -->
+    <path
+        android:pathData="M24,12 A12,12 0 1,1 23.99,12 Z"
+        android:strokeWidth="1.6"
+        android:strokeColor="#8800E5A3"
+        android:fillColor="#00000000" />
+
+    <!-- Speedometer Needle & Center Hub -->
+    <path
+        android:strokeColor="#FF00E5A3"
+        android:strokeWidth="2.8"
+        android:strokeLineCap="round"
+        android:pathData="M24,24 L33.5,14.5" />
+
+    <path
+        android:fillColor="#FF38BDF8"
+        android:pathData="M24,20.5 A3.5,3.5 0 1,1 23.99,20.5 Z" />
+</vector>

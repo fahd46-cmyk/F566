@@ -1,0 +1,6 @@
+{
+  "name": "Jissr VPN",
+  "description": "High-speed encrypted bridge VPN client, real-time tunnel telemetry, latency prober, WireGuard config studio, and APK release builder.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

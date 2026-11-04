@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="48"
+    android:viewportHeight="48">
+
+    <path
+        android:pathData="M24,3 L41,10.5 V23.5 C41,34.5 33.6,42.3 24,45 C14.4,42.3 7,34.5 7,23.5 V10.5 L24,3 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="7"
+                android:startY="3"
+                android:endX="41"
+                android:endY="45"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#3800E5A3" />
+                <item android:offset="1.0" android:color="#2838BDF8" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <path
+        android:pathData="M24,6 L38,12.2 V23.2 C38,32.4 31.9,39.1 24,41.6 C16.1,39.1 10,32.4 10,23.2 V12.2 L24,6 Z"
+        android:strokeWidth="2.2"
+        android:fillColor="#00000000">
+        <aapt:attr name="android:strokeColor">
+            <gradient
+                android:startX="10"
+                android:startY="6"
+                android:endX="38"
+                android:endY="42"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#FF00E5A3" />
+                <item android:offset="1.0" android:color="#FF38BDF8" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Inner Check & Lock Core -->
+    <path
+        android:strokeColor="#FF00E5A3"
+        android:strokeWidth="3.0"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:fillColor="#00000000"
+        android:pathData="M17.5,24.2 L22.2,28.8 L31,19.5" />
+</vector>
